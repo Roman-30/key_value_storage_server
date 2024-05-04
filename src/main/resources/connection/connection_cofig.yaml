@@ -1,0 +1,12 @@
+shardCount: 1
+connectionModels:
+  - address:
+      host: "host.docker.internal"
+      port: 8090
+    shardState: "MASTER"
+    shardId: 1
+  - address:
+      host: "host.docker.internal"
+      port: 8081
+    shardState: "SLAVE"
+    shardId: 2
